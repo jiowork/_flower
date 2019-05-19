@@ -48,7 +48,7 @@ class Operation(object):
         cv1.place(x=135,y=61)
         frame = Frame(cv1)
         frame.place(x=5, y=8, width=804, height=530)
-        vi_img=PhotoImage(file='imgs/01.png')
+        vi_img=PhotoImage(file='imgs/test_gif.gif')
         face_i=Label(frame,image=vi_img,width=100, height=125)
         face_i.bm=vi_img
         face_i.place(x=200,y=100)

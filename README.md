@@ -1,17 +1,14 @@
-# _flower
-index.html
-```flow 
-st=>start: 开始 
-e=>end: 登录 
-io1=>inputoutput: 输入用户名密码 
-sub1=>subroutine: 数据库查询子类 
-cond=>condition: 是否有此用户 
-cond2=>condition: 密码是否正确 
-op=>operation: 读入用户信息
+## 医生管理系统
 
-st->io1->sub1->cond 
-cond(yes,right)->cond2 
-cond(no)->io1(right) 
-cond2(yes,right)->op->e 
-cond2(no)->io1 
-```
+
+管理员、医生、病例 登录界面 `login.py`
+管理员登录成功，操作界面 `Operating_manager.py`
+医生登录成功，操作界面 `Operating_doctor.py`
+病例登录成功，操作界面 `Operating_patient.py`
+连接数据库mysql `linksql.py`
+登录错误 `warning.py`
+执行 `haha.py`
+
+
+
+
